@@ -45,9 +45,6 @@ public class FileWriter {
 		File file = new File(filePath);
 		java.io.FileWriter fw = new java.io.FileWriter(file);
 		
-		System.out.println("test");
-		System.out.println(bubbleTime);
-		
 		fw.write("Bubble Sort : Time = "+bubbleTime+" Result = "+Arrays.toString(bubbleResult) + "\n");
 		fw.write("Insertion Sort : Time = "+insertionTime+" Result = "+Arrays.toString(insertionResult)+"\n");
 		fw.write("Selection Sort : Time = "+selectionTime+" Result = "+Arrays.toString(selectionResult)+"\n");
